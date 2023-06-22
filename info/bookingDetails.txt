@@ -1,0 +1,11 @@
+1009,22-06-2023,23-06-2023,Chan Ka Wai,031014112138,0167283940,kawai@gmail.com,Female,Check-In,S01
+2002,24-06-2023,26-06-2023,Yip Zhi Hong,031239928211,0192837263,yip@gmail.com,Male,wait-Check-In,S02
+2002,26-06-2023,28-06-2023,Yong Siong Yue,031232731822,0132283278,yong@gmail.com,Male,wait-Check-In,S03
+1006,23-06-2023,28-06-2023,Chai Zheng Lam,021231238291,0123289317,chai@gmail.com,Male,wait-Check-In,S04
+1003,30-06-2023,03-07-2023,How Zhen Nan,031231382111,023812938,zn@gmail.com,Male,wait-Check-In,S05
+1009,24-06-2023,26-06-2023,Joey,030208106232,0163283283,joey@gmail.com,Female,wait-Check-In,S06
+1007,26-06-2023,28-06-2023,Joan,021231298319,012237273,anjo@gmail.com,Female,wait-Check-In,S07
+1003,24-06-2023,27-06-2023,Elvis,021323813923,0172362372,elvis@gmail.cm,Male,wait-Check-In,S08
+1009,27-06-2023,06-07-2023,Rose,970211108323,0172372372,rosee@gmail.com,Female,wait-Check-In,S09
+1008,03-07-2023,05-07-2023,Jisoo,032731283112,0123828322,soo@gmail.com,Female,wait-Check-In,S10
+2004,21-06-2023,22-06-2023,Jennie,973821839122,01238298,jee@gmail.com,Female,Check-Out,S11

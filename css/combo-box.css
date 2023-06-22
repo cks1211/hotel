@@ -1,0 +1,28 @@
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-prompt-text-fill: #A9A9A9;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #E3E4FA;
+    -fx-background-radius: 0;
+}
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: #D4D5F4;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #000000;
+}
+
+.combo-box .list-cell:selected {
+    -fx-background-color: #9D9AA1;
+    -fx-text-fill: white;
+}

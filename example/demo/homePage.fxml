@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.homePageController">
+   <AnchorPane prefHeight="90.0" prefWidth="1000.0" style="-fx-background-color: white;">
+      <ImageView fitHeight="63.0" fitWidth="102.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../../img/LOGO.png" />
+      </ImageView>
+      <Button fx:id="buttonLogOut" layoutX="905.0" layoutY="28.0" mnemonicParsing="false" onAction="#logOutButton" prefHeight="33.0" prefWidth="72.0" stylesheets="@../../css/button.css" text="Log Out" />
+      <Label layoutX="404.0" layoutY="1.0" text="R Hotel">
+         <font>
+            <Font name="Bradley Hand ITC" size="61.0" />
+         </font>
+      </Label>
+   </AnchorPane>
+   <AnchorPane layoutY="90.0" prefHeight="510.0" prefWidth="1000.0" style="-fx-background-color: #E3E4FA;">
+      <Button fx:id="buttonCheckInOut" layoutX="220.0" layoutY="329.0" mnemonicParsing="false" onAction="#checkInOutButton" opacity="0.75" prefHeight="148.0" prefWidth="170.0" stylesheets="@../../css/homepage.css" text="Check In &amp; Out">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonBooking" layoutX="220.0" layoutY="69.0" mnemonicParsing="false" onAction="#bookingButton" opacity="0.75" prefHeight="148.0" prefWidth="170.0" stylesheets="@../../css/homepage.css" text="Booking">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonRoom" layoutX="646.0" layoutY="329.0" mnemonicParsing="false" onAction="#roomButton" opacity="0.75" prefHeight="148.0" prefWidth="170.0" stylesheets="@../../css/homepage.css" text="Room">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonTransactionHistory" layoutX="646.0" layoutY="69.0" mnemonicParsing="false" onAction="#transactionHistoryButton" opacity="0.75" prefHeight="148.0" prefWidth="170.0" stylesheets="@../../css/homepage.css" text="Transaction History" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+   </AnchorPane>
+</AnchorPane>

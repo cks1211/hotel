@@ -1,0 +1,11 @@
+.checkbox {
+    -fx-background-color: #E3E4FA;
+}
+
+.checkbox .box {
+    -fx-background-color: #C0C0C0;
+}
+
+.checkbox:selected .box > .mark {
+    -fx-background-color: #C0C0C0;
+}

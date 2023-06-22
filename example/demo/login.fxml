@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="328.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="310.0" fitWidth="309.0" layoutX="10.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/LOGO.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="494.0" style="-fx-background-color: #E3E4FA;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="217.0" layoutY="67.0" text="Login">
+               <font>
+                  <Font name="Bradley Hand ITC" size="75.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameTextField" layoutX="227.0" layoutY="210.0" prefHeight="26.0" prefWidth="170.0" promptText="Username" stylesheets="@../../css/field.css" />
+            <PasswordField fx:id="passwordPasswordField" layoutX="227.0" layoutY="277.0" prefHeight="26.0" prefWidth="170.0" promptText="Password" stylesheets="@../../css/field.css" />
+            <Button fx:id="loginButton" layoutX="267.0" layoutY="383.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="10.0" prefWidth="90.0" stylesheets="@../../css/button.css" text="Login" />
+            <Label fx:id="loginMessage" alignment="CENTER" layoutX="245.0" layoutY="347.0" textFill="RED" />
+            <Button fx:id="closeButton" layoutX="267.0" layoutY="441.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="32.0" prefWidth="89.0" stylesheets="@../../css/button.css" text="Close" />
+            <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="365.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/user.png" />
+               </image>
+            </ImageView>
+            <CheckBox fx:id="ShowPassword" layoutX="261.0" layoutY="315.0" mnemonicParsing="false" stylesheets="@../../css/checkbox.css" text="Show Password">
+               <font>
+                  <Font name="Bradley Hand ITC" size="13.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="textfield" layoutX="227.0" layoutY="277.0" prefHeight="27.0" prefWidth="170.0" promptText="Password" stylesheets="@../../css/field.css" />
+            <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="365.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/lock-lines.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,27 @@
+.button {
+    -fx-padding: 4px 10px 10px 10px;
+    -fx-background-radius: 0;
+    -fx-background-color:
+        linear-gradient(to bottom, #E3E4FA 0%, #C0C0C0 100%),
+        #D0D0D0,
+        #C0C0C0,
+        radial-gradient(center 50% 50%, radius 100%, #C0C0C0, #A0A0A0);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 2, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1em;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color:
+        linear-gradient(to bottom, #D0D3F1 0%, #A7A8A9 100%),
+        #A7A8A9,
+        #A7A8A9,
+        radial-gradient(center 50% 50%, radius 100%, #A7A8A9, #D0D3F1);
+}
+
+.button:pressed {
+    -fx-padding: 6px 10px 8px 10px;
+    -fx-background-insets: 1px 0 0 0, 1px 0 2px 0, 1px 0 3px 0, 1px 0 4px 0;
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="461.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.receiptController">
+   <children>
+      <ImageView fitHeight="93.0" fitWidth="128.0" layoutX="184.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/LOGO.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="126.0" prefHeight="21.0" prefWidth="461.0">
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="0.7263157963752747" green="0.7182456254959106" blue="0.7182456254959106" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect></Separator>
+      <Label layoutX="201.0" layoutY="534.0" text="© R HOTEL">
+         <font>
+            <Font name="Bodoni MT Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="107.0" text="RECEIPT">
+         <font>
+            <Font name="Bodoni MT Condensed" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="147.0" text="Customer Name" />
+      <Label layoutX="9.0" layoutY="174.0" text="Customer Contact" />
+      <Label layoutX="284.0" layoutY="147.0" text="Receipt No" />
+      <Label layoutX="110.0" layoutY="283.0" text="Room" />
+      <Label layoutX="110.0" layoutY="315.0" text="Day Of Stay" />
+      <Label layoutX="110.0" layoutY="347.0" text="Room Charge" />
+      <Label layoutX="110.0" layoutY="379.0" text="Tax - 10%" />
+      <Label layoutX="110.0" layoutY="407.0" text="Tourism Tax" />
+      <Label layoutX="111.0" layoutY="420.0" text="(RM10 per day)">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="447.0" text="Total Amount" />
+      <Label layoutX="39.0" layoutY="201.0" text="Customer IC" />
+      <Label layoutX="269.0" layoutY="174.0" text="Date Payment" />
+      <Label layoutX="21.0" layoutY="228.0" text="Customer Email" />
+      <Label layoutX="284.0" layoutY="201.0" text="Booking ID" />
+      <Label fx:id="CustomerNameField" layoutX="122.0" layoutY="147.0" prefHeight="17.0" prefWidth="127.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="CustomerContactField" layoutX="122.0" layoutY="174.0" prefHeight="17.0" prefWidth="127.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="CustomerICField" layoutX="123.0" layoutY="202.0" prefHeight="17.0" prefWidth="127.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="CustomerEmailField" layoutX="123.0" layoutY="228.0" prefHeight="17.0" prefWidth="127.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="ReceiptNoField" layoutX="350.0" layoutY="147.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="DatePaymentField" layoutX="350.0" layoutY="174.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="RoomField" layoutX="194.0" layoutY="283.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="DayOfStayField" layoutX="196.0" layoutY="315.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="ChargePerDayField" layoutX="196.0" layoutY="347.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TaxField" layoutX="196.0" layoutY="379.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TourismTaxField" layoutX="196.0" layoutY="412.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="BookingIDField" layoutX="350.0" layoutY="201.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TotalAmountField" layoutX="196.0" layoutY="447.0" prefHeight="17.0" prefWidth="96.0">
+         <font>
+            <Font name="Monospaced Bold" size="12.0" />
+         </font></Label>
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</Pane>

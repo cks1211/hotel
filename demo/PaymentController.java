@@ -167,6 +167,10 @@ public class PaymentController implements Initializable {
         boolean isValid = ValidateInput();
 
         if (isValid) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setHeaderText(null);
+            alert.setContentText("Payment Successful");
+            alert.showAndWait();
             openTransactionDetailsPage();
 
         } else {
